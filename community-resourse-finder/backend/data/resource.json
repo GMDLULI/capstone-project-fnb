@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Daveyton East Clinic",
+    "category": "clinic",
+    "area": "Daveyton East",
+    "description": "Free primary healthcare, walk-ins welcome.",
+    "phone": "000 000 0000",
+    "website": "https://daveytoneastclinic.org"
+  },
+  {
+    "id": 2,
+    "name": "Wethinkcode Bootcamp",
+    "category": "course",
+    "area": "Johannesburg CBD",
+    "description": "Free beginner web development course.",
+    "phone": "",
+    "website": "https://wethinkcode.co.za/courses"
+  },
+  {
+    "id": 3,
+    "name": "FNB Job Listings",
+    "category": "job",
+    "area": "Online",
+    "description": "Entry-level listings for graduates.",
+    "phone": "",
+    "website": "https://fnb.com/jobs"
+  }, 
+  {
+    "id": 4,
+    "name": "Chaiwelo Clinic",
+    "category": "clinic",
+    "area": "Soweto Chaiwelo",
+    "description": "Free primary healthcare, walk-ins welcome.",
+    "phone": "000 000 0000",
+    "website": "https://chaiweloclinic.org"
+  },{
+    
+    "id": 5,
+    "name": "Soweto Coding Bootcamp",
+    "category": "course",
+    "area": "Soweto",
+    "description": "Free beginner web development course.",
+    "phone": "",
+    "website": "https://sowetocodingbootcamp.org"
+  },
+  {
+    "id": 6,
+    "name": "Brakpan Job Listings",
+    "category": "job",
+    "area": "Online",
+    "description": "Entry-level listings for graduates.",
+    "phone": "",
+    "website": "https://brakpanjobs.org"
+  },
+  {
+    "id": 7,
+    "name": "Tembisa East Clinic",
+    "category": "clinic",
+    "area": "Tembisa East",
+    "description": "Free primary healthcare, walk-ins welcome.",
+    "phone": "000 000 0000",
+    "website": "https://tembisaeastclinic.org"
+  },
+  {
+    "id": 8,
+    "name": "Tembisa Coding Bootcamp",
+    "category": "course",
+    "area": "Tembisa",
+    "description": "Free beginner web development course.",
+    "phone": "",
+    "website": "https://tembisacodingbootcamp.org"
+  },
+  {
+    "id": 9,
+    "name": "Tembisa Job Listings",
+    "category": "job",
+    "area": "Online",
+    "description": "Entry-level listings for graduates.",
+    "phone": "",
+    "website": "https://tembisajobs.org"
+  }, {
+    
+    "id": 10,
+    "name": "Daveyton West Clinic",
+    "category": "clinic",
+    "area": "Daveyton West",
+    "description": "Free primary healthcare, walk-ins welcome.",
+    "phone": "000 000 0000",
+    "website": "https://daveytonwestclinic.org"
+  },
+  {
+    "id": 11,
+    "name": "Benoni nursing college",
+    "category": "course",
+    "area": "Benoni",
+    "description": "Free training for nursing students.",
+    "phone": "",
+    "website": "https://benoninursingcollege.org"
+  },
+  {
+    "id": 12,
+    "name": "Benoni Job Listings",
+    "category": "job",
+    "area": "Online",
+    "description": "Entry-level listings for graduates.",
+    "phone": "",
+    "website": "https://benonijobs.org"
+  },{
+    
+    "id": 13,
+    "name": "Brakpan Clinic",
+    "category": "clinic",
+    "area": "Brakpan",
+    "description": "Free primary healthcare, walk-ins welcome.",
+    "phone": "000 000 0000",
+    "website": "https://brakpanclinic.org"
+  },
+  {
+    "id": 14,
+    "name": "Brakpan General workers training",
+    "category": "course",
+    "area": "Brakpan",
+    "description": "Free general workers training.",
+    "phone": "",
+    "website": "https://brakpangeneralworkerstraining.org"
+  },
+  {
+    "id": 15,
+    "name": "Brakpan Business Administration Post. ",
+    "category": "job",
+    "area": "Online",
+    "description": "Entry-level positions available.",
+    "phone": "",
+    "website": "https://brakpanjobs.org"
+  }
+]                                                                                                            

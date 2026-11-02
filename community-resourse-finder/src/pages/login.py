@@ -1,6 +1,7 @@
 import flet as ft
 
 import api
+import components.reset_password as reset_password_dialog
 
 
 def login_screen(page: ft.Page, state: dict) -> ft.View:
@@ -11,7 +12,7 @@ def login_screen(page: ft.Page, state: dict) -> ft.View:
         color="#728E6D",
         border_color="#EBE2CC",
         text_style=ft.TextStyle(color="#EBE2CC"),
-        width=page.width * 0.5,
+        width=page.width * 0.5, # pyright: ignore[reportOptionalOperand]
         helper_style=ft.TextStyle(color=ft.Colors.RED),
         border_radius=ft.BorderRadius.all(20),
 
@@ -24,7 +25,7 @@ def login_screen(page: ft.Page, state: dict) -> ft.View:
         border_color="#EBE2CC",
         can_reveal_password=True,
         text_style=ft.TextStyle(color="#EBE2CC"),
-        width=page.width * 0.5,
+        width=page.width * 0.5, # pyright: ignore[reportOptionalOperand]
         helper_style=ft.TextStyle(color=ft.Colors.RED),
         border_radius=ft.BorderRadius.all(20),
         )
@@ -50,8 +51,8 @@ def login_screen(page: ft.Page, state: dict) -> ft.View:
     async def handle_text(e):
         await page.push_route("/register")
 
-    # def on_forgot_password(e):
-    #     page.show_dialog(reset_password(page))
+    def on_forgot_password(e):
+        page.show_dialog(reset_password_dialog.reset_password_dialog(page, email_prefill=email.value or ""))
 
 
     body = ft.Container(
@@ -61,8 +62,8 @@ def login_screen(page: ft.Page, state: dict) -> ft.View:
         height=page.height,
         width=page.width,
         content=ft.Container(
-            height=page.height * 0.85,
-            width=page.width * 0.5, 
+            height=page.height * 0.85, # pyright: ignore[reportOptionalOperand]
+            width=page.width * 0.5,  # pyright: ignore[reportOptionalOperand]
             bgcolor="#728E6D",
             border_radius=ft.BorderRadius.all(20),
             padding=ft.Padding.all(40),
@@ -143,7 +144,7 @@ def login_screen(page: ft.Page, state: dict) -> ft.View:
                             ),
                             ft.TextButton(
                                 "Forgot Password?",
-                                on_click=handle_text,
+                                on_click=on_forgot_password,
                                 style=ft.ButtonStyle(
                                     text_style=ft.TextStyle(
                                         color="#EBE2CC",

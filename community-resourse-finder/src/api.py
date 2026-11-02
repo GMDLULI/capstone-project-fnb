@@ -37,3 +37,6 @@ def login(email: str, password: str) -> dict:
 
 def get_resources(q: str = "", category: str = "") -> list[dict]:
     return _request("GET", "/resources", params={"q": q, "category": category})
+
+def reset_password(email: str, new_password: str) -> dict:
+    return _request("POST", "/auth/reset-password", json={"email": email, "password": new_password})

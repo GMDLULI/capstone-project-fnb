@@ -11,7 +11,7 @@ def signin_screen(page: ft.Page, state: dict) -> ft.View:
         color="#728E6D",
         border_color="#EBE2CC",
         text_style=ft.TextStyle(color="#EBE2CC"),
-        width=page.width * 0.5,
+        width=page.width * 0.5, # pyright: ignore[reportOptionalOperand]
         helper_style=ft.TextStyle(color=ft.Colors.RED),
         border_radius=ft.BorderRadius.all(20)
         ,)
@@ -23,7 +23,7 @@ def signin_screen(page: ft.Page, state: dict) -> ft.View:
         border_color="#EBE2CC",
         can_reveal_password=True,
         text_style=ft.TextStyle(color="#EBE2CC"),
-        width=page.width * 0.5,
+        width=page.width * 0.5, # pyright: ignore[reportOptionalOperand]
         helper_style=ft.TextStyle(color=ft.Colors.RED),
         border_radius=ft.BorderRadius.all(20),
         )
@@ -35,7 +35,7 @@ def signin_screen(page: ft.Page, state: dict) -> ft.View:
         border_color="#EBE2CC",
         can_reveal_password=True,
         text_style=ft.TextStyle(color="#EBE2CC"),
-        width=page.width * 0.5,
+        width=page.width * 0.5, # pyright: ignore[reportOptionalOperand]
         helper_style=ft.TextStyle(color=ft.Colors.RED),
         border_radius=ft.BorderRadius.all(20),)
         
@@ -75,8 +75,8 @@ def signin_screen(page: ft.Page, state: dict) -> ft.View:
         width=page.width,
 
          content=ft.Container(
-            height=page.height * 0.85,
-            width=page.width * 0.5,
+            height=page.height * 0.85, # pyright: ignore[reportOptionalOperand]
+            width=page.width * 0.5, # pyright: ignore[reportOptionalOperand]
             bgcolor="#728E6D",
             border_radius=ft.BorderRadius.all(20),
             padding=ft.Padding.all(40),
@@ -147,7 +147,7 @@ def signin_screen(page: ft.Page, state: dict) -> ft.View:
                                 content='sign up',
                                 bgcolor="#EBE2CC",
                                 color="#728E6D",
-                                width = page.width * 0.3,
+                                width = page.width * 0.3, # pyright: ignore[reportOptionalOperand]
                                 height = 50,
                                 on_click = handle_register
                             )

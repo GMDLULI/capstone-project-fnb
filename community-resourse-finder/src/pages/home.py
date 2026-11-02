@@ -12,7 +12,7 @@ DARK_GREEN = "#4F6B4A"
 def info_row(icon:str, text:str) -> ft.Row:
     return ft.Row(
         controls=[
-            ft.Icon(icon=icon, size=20, color="#4F6B4A"),
+            ft.Icon(icon=icon, size=20, color="#4F6B4A"), # pyright: ignore[reportArgumentType]
             ft.Text(text, size=16, color="#4F6B4A", selectable=True, expand=True),
         ],
         spacing=8,
@@ -48,9 +48,9 @@ def resource_card(r: dict) -> ft.Card:
         ft.Text(r["description"], size=16, color="#4F6B4A", selectable=True, expand=True),
     ]
     if r.get("phone"):
-        lines.append(info_row(ft.Icons.PHONE_ROUNDED, r["phone"]))
+        lines.append(info_row(ft.Icons.PHONE_ROUNDED, r["phone"])) # pyright: ignore[reportArgumentType]
     if r.get("website"):
-        lines.append(info_row(ft.Icons.WEB, r["website"]))
+        lines.append(info_row(ft.Icons.WEB, r["website"])) # pyright: ignore[reportArgumentType]
 
     return ft.Card(
         bgcolor="#EBE2CC",

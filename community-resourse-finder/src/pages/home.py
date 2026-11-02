@@ -5,11 +5,17 @@ import flet as ft
 import api
 
 
-GREEN = "#728E6D",
-CREAM = "#EBE2CC",
-DARK_GREEN = "#4F6B4A"
 
-def info_row(icon:str, text:str) -> ft.Row:
+def normalize_url(url: str | None) -> str | None:
+    """Return a safe http(s) URL, or None if the resource has no usable website."""
+    url = (url or "").strip()
+    if not url:
+        return None
+    if "://" not in url:
+        url = "https://" + url
+    return url if url.lower().startswith(("http://", "https://")) else None
+
+def info_row(icon:ft.IconData, text:str) -> ft.Row:
     return ft.Row(
         controls=[
             ft.Icon(icon=icon, size=20, color="#4F6B4A"), # pyright: ignore[reportArgumentType]
@@ -18,23 +24,32 @@ def info_row(icon:str, text:str) -> ft.Row:
         spacing=8,
     )
 
-
-def resource_card(r: dict) -> ft.Card:
-
-    category_pill = ft.Container(
+def category_pill(category: str) -> ft.Container:
+    return ft.Container(
         bgcolor="#728E6D",
         border_radius=ft.BorderRadius.all(12),
         padding=ft.Padding(10, 4, 10, 4),
-        content=ft.Text(r["category"].title(), size=12, color="#EBE2CC", weight=ft.FontWeight.BOLD),
+        content=ft.Text(category.title(), size=12, color="#EBE2CC", weight=ft.FontWeight.BOLD),
     )
-     
-    lines: list[ft.Control] = [
 
+
+def resource_card(page: ft.Page, r: dict) -> ft.Card:
+
+    url = normalize_url(r.get("website"))
+
+    async def open_resource(e):
+        await page.push_route(f"/resource/{r['id']}")
+        if url:
+            await ft.UrlLauncher().launch_url(url)
+        
+
+
+    lines: list[ft.Control] = [
         ft.Row(
             alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
             controls=[
                 ft.Text(r["name"], size=18, weight=ft.FontWeight.BOLD, color="#4F6B4A"),
-                category_pill,
+                category_pill(r["category"]),
 
             ]
         ),
@@ -48,9 +63,28 @@ def resource_card(r: dict) -> ft.Card:
         ft.Text(r["description"], size=16, color="#4F6B4A", selectable=True, expand=True),
     ]
     if r.get("phone"):
-        lines.append(info_row(ft.Icons.PHONE_ROUNDED, r["phone"])) # pyright: ignore[reportArgumentType]
+        lines.append(info_row(ft.Icons.PHONE_ROUNDED, r["phone"]))
     if r.get("website"):
-        lines.append(info_row(ft.Icons.WEB, r["website"])) # pyright: ignore[reportArgumentType]
+        lines.append(info_row(ft.Icons.WEB, r["website"]))
+
+    lines.append(
+        ft.Row(
+            alignment=ft.MainAxisAlignment.END,
+            spacing=4,
+            controls=[
+                ft.Text(
+                    "Visit website" if url else "View details",
+                    color="#4F6B4A",
+                    weight=ft.FontWeight.BOLD,
+                ),
+                ft.Icon(
+                    icon=ft.Icons.OPEN_IN_NEW_ROUNDED if url else ft.Icons.CHEVRON_RIGHT_ROUNDED,
+                    size=18,
+                    color="#4F6B4A",
+                ),
+            ]
+        )
+    )
 
     return ft.Card(
         bgcolor="#EBE2CC",
@@ -58,6 +92,8 @@ def resource_card(r: dict) -> ft.Card:
         content=ft.Container(
             padding=ft.Padding.all(20), 
             border_radius=ft.BorderRadius.all(20),
+            ink=True,
+            on_click=open_resource,
             content=ft.Column(lines, spacing=8)))
 
 
@@ -85,7 +121,7 @@ def home_screen(page: ft.Page, state: dict) -> ft.View:
             results.controls = []
             message.value = str(exc)
             return
-        results.controls = [resource_card(r) for r in data]
+        results.controls = [resource_card(page, r) for r in data]
         if not data:
             message.value = "No resources found."
 

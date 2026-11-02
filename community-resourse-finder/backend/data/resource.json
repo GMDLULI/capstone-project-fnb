@@ -4,7 +4,7 @@
     "name": "Daveyton East Clinic",
     "category": "clinic",
     "area": "Daveyton East",
-    "description": "Free primary healthcare, walk-ins welcome.",
+    "description": "Free primary healthcare, walk-ins welcome. you will be attended to by a qualified nurse and doctor. We also provide free HIV testing and counseling.",
     "phone": "+276 3578 3890",
     "website": "https://daveytoneastclinic.org"
   },
@@ -13,7 +13,7 @@
     "name": "Wethinkcode Bootcamp",
     "category": "course",
     "area": "Johannesburg CBD",
-    "description": "Free beginner web development course.",
+    "description": "Free beginner web development course. for students who are interested in learning how to code. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://wethinkcode.co.za/courses"
   },
@@ -22,7 +22,7 @@
     "name": "FNB Job Listings",
     "category": "job",
     "area": "Online",
-    "description": "Entry-level listings for graduates.",
+    "description": "Entry-level listings for graduates. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://fnb.com/jobs"
   }, 
@@ -31,7 +31,7 @@
     "name": "Chaiwelo Clinic",
     "category": "clinic",
     "area": "Soweto Chaiwelo",
-    "description": "Free primary healthcare, walk-ins welcome.",
+    "description": "Free primary healthcare, walk-ins welcome. you will be attended to by a qualified nurse and doctor. We also provide free HIV testing and counseling.",
     "phone": "+27 11 123 4567",
     "website": "https://chaiweloclinic.org"
   },{
@@ -40,7 +40,7 @@
     "name": "Soweto Coding Bootcamp",
     "category": "course",
     "area": "Soweto",
-    "description": "Free beginner web development course.",
+    "description": "Free beginner web development course. for students who are interested in learning how to code. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://sowetocodingbootcamp.org"
   },
@@ -49,7 +49,7 @@
     "name": "Brakpan Job Listings",
     "category": "job",
     "area": "Online",
-    "description": "Entry-level listings for graduates.",
+    "description": "Entry-level listings for graduates. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://brakpanjobs.org"
   },
@@ -58,7 +58,7 @@
     "name": "Tembisa East Clinic",
     "category": "clinic",
     "area": "Tembisa East",
-    "description": "Free primary healthcare, walk-ins welcome.",
+    "description": "Free primary healthcare, walk-ins welcome. you will be attended to by a qualified nurse and doctor. We also provide free HIV testing and counseling.",
     "phone": "+27 11 123 4567",
     "website": "https://tembisaeastclinic.org"
   },
@@ -67,7 +67,7 @@
     "name": "Tembisa Coding Bootcamp",
     "category": "course",
     "area": "Tembisa",
-    "description": "Free beginner web development course.",
+    "description": "Free beginner web development course. for students who are interested in learning how to code. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://tembisacodingbootcamp.org"
   },
@@ -76,7 +76,7 @@
     "name": "Tembisa Job Listings",
     "category": "job",
     "area": "Online",
-    "description": "Entry-level listings for graduates.",
+    "description": "Entry-level listings for graduates. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://tembisajobs.org"
   }, {
@@ -85,7 +85,7 @@
     "name": "Daveyton West Clinic",
     "category": "clinic",
     "area": "Daveyton West",
-    "description": "Free primary healthcare, walk-ins welcome.",
+    "description": "Free primary healthcare, walk-ins welcome. you will be attended to by a qualified nurse and doctor. We also provide free HIV testing and counseling.",
     "phone": "+27 11 123 4567",
     "website": "https://daveytonwestclinic.org"
   },
@@ -94,7 +94,7 @@
     "name": "Benoni nursing college",
     "category": "course",
     "area": "Benoni",
-    "description": "Free training for nursing students.",
+    "description": "Free training for nursing students. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://benoninursingcollege.org"
   },
@@ -103,7 +103,7 @@
     "name": "Benoni Job Listings",
     "category": "job",
     "area": "Online",
-    "description": "Entry-level listings for graduates.",
+    "description": "Entry-level listings for graduates. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://benonijobs.org"
   },{
@@ -112,7 +112,7 @@
     "name": "Brakpan Clinic",
     "category": "clinic",
     "area": "Brakpan",
-    "description": "Free primary healthcare, walk-ins welcome.",
+    "description": "Free primary healthcare, walk-ins welcome. you will be attended to by a qualified nurse and doctor. We also provide free HIV testing and counseling.",
     "phone": "+27 11 123 4567",
     "website": "https://brakpanclinic.org"
   },
@@ -121,7 +121,7 @@
     "name": "Brakpan General workers training",
     "category": "course",
     "area": "Brakpan",
-    "description": "Free general workers training.",
+    "description": "Free general workers training. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://brakpangeneralworkerstraining.org"
   },
@@ -130,7 +130,7 @@
     "name": "Brakpan Business Administration Post. ",
     "category": "job",
     "area": "Online",
-    "description": "Entry-level positions available.",
+    "description": "Entry-level positions available. We provide a supportive and inclusive environment for all students.",
     "phone": "+27 11 123 4567",
     "website": "https://brakpanjobs.org"
   }

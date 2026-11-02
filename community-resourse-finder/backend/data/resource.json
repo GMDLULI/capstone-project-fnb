@@ -5,7 +5,7 @@
     "category": "clinic",
     "area": "Daveyton East",
     "description": "Free primary healthcare, walk-ins welcome.",
-    "phone": "000 000 0000",
+    "phone": "+276 3578 3890",
     "website": "https://daveytoneastclinic.org"
   },
   {
@@ -14,7 +14,7 @@
     "category": "course",
     "area": "Johannesburg CBD",
     "description": "Free beginner web development course.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://wethinkcode.co.za/courses"
   },
   {
@@ -23,7 +23,7 @@
     "category": "job",
     "area": "Online",
     "description": "Entry-level listings for graduates.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://fnb.com/jobs"
   }, 
   {
@@ -32,7 +32,7 @@
     "category": "clinic",
     "area": "Soweto Chaiwelo",
     "description": "Free primary healthcare, walk-ins welcome.",
-    "phone": "000 000 0000",
+    "phone": "+27 11 123 4567",
     "website": "https://chaiweloclinic.org"
   },{
     
@@ -41,7 +41,7 @@
     "category": "course",
     "area": "Soweto",
     "description": "Free beginner web development course.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://sowetocodingbootcamp.org"
   },
   {
@@ -50,7 +50,7 @@
     "category": "job",
     "area": "Online",
     "description": "Entry-level listings for graduates.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://brakpanjobs.org"
   },
   {
@@ -59,7 +59,7 @@
     "category": "clinic",
     "area": "Tembisa East",
     "description": "Free primary healthcare, walk-ins welcome.",
-    "phone": "000 000 0000",
+    "phone": "+27 11 123 4567",
     "website": "https://tembisaeastclinic.org"
   },
   {
@@ -68,7 +68,7 @@
     "category": "course",
     "area": "Tembisa",
     "description": "Free beginner web development course.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://tembisacodingbootcamp.org"
   },
   {
@@ -77,7 +77,7 @@
     "category": "job",
     "area": "Online",
     "description": "Entry-level listings for graduates.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://tembisajobs.org"
   }, {
     
@@ -86,7 +86,7 @@
     "category": "clinic",
     "area": "Daveyton West",
     "description": "Free primary healthcare, walk-ins welcome.",
-    "phone": "000 000 0000",
+    "phone": "+27 11 123 4567",
     "website": "https://daveytonwestclinic.org"
   },
   {
@@ -95,7 +95,7 @@
     "category": "course",
     "area": "Benoni",
     "description": "Free training for nursing students.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://benoninursingcollege.org"
   },
   {
@@ -104,7 +104,7 @@
     "category": "job",
     "area": "Online",
     "description": "Entry-level listings for graduates.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://benonijobs.org"
   },{
     
@@ -113,7 +113,7 @@
     "category": "clinic",
     "area": "Brakpan",
     "description": "Free primary healthcare, walk-ins welcome.",
-    "phone": "000 000 0000",
+    "phone": "+27 11 123 4567",
     "website": "https://brakpanclinic.org"
   },
   {
@@ -122,7 +122,7 @@
     "category": "course",
     "area": "Brakpan",
     "description": "Free general workers training.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://brakpangeneralworkerstraining.org"
   },
   {
@@ -131,7 +131,7 @@
     "category": "job",
     "area": "Online",
     "description": "Entry-level positions available.",
-    "phone": "",
+    "phone": "+27 11 123 4567",
     "website": "https://brakpanjobs.org"
   }
 ]                                                                                                            
